@@ -1,0 +1,12 @@
+.imgobelisco{
+    @include imgMixin(21.875rem, 18.75rem, .625rem, .0625rem)
+}
+
+.imghotel{
+    @extend .imgobelisco
+}
+
+.imgpm{
+    @extend .imgobelisco
+}
+

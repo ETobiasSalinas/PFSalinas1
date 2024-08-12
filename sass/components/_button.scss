@@ -1,0 +1,8 @@
+.botonReserva1{
+    @include boton(1.25rem 2.1875rem, 1.875rem, rgb(67, 58, 58), white, .125rem);
+    margin-bottom: 3.125rem;
+}
+
+.botonReserva2{
+    @extend .botonReserva1
+}

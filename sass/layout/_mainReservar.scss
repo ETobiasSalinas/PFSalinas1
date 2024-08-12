@@ -1,0 +1,7 @@
+.imagenReserva1{
+    @include imgMixin(21.875rem, 18.75rem, .625rem, .125rem)
+}
+
+.imagenReserva2{
+    @extend .imagenReserva1
+}

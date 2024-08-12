@@ -1,0 +1,172 @@
+@font-face {
+  font-family: "letraTitulo";
+  src: url(../assets/img/fonts/Prata-Regular.ttf);
+}
+h1 {
+  font-family: "letraTitulo";
+}
+
+h2 {
+  font-family: "letraTitulo";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.footerr {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+.footerr img {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+.footerr span {
+  margin: 0.3125rem;
+  padding: 0.3125rem;
+}
+
+.imagenHotel {
+  height: 31.25rem;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  filter: brightness(0.5);
+  background-image: url(https://plus.unsplash.com/premium_photo-1678297269980-16f4be3a15a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.imagenRecepcion, .imagenTrabajo, .imagenRestaurant {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+}
+
+.imagenReserva1, .imagenReserva2 {
+  width: 21.875rem;
+  height: 18.75rem;
+  padding: 0.625rem;
+  border: 0.125rem;
+}
+
+.serv {
+  display: grid;
+  grid-template-columns: repeat(6, 25rem);
+  grid-template-rows: repeat(1, 25rem);
+  height: 100%;
+}
+
+.map {
+  width: 6.25rem;
+  height: 6.25rem;
+}
+
+.imgobelisco, .imgpm, .imghotel {
+  width: 21.875rem;
+  height: 18.75rem;
+  padding: 0.625rem;
+  border: 0.0625rem;
+}
+
+.imgh img {
+  height: 100px;
+  width: 100px;
+}
+
+.botonReserva1, .botonReserva2 {
+  padding: 1.25rem 2.1875rem;
+  border: 1.875rem;
+  background-color: rgb(67, 58, 58);
+  color: white;
+  border-radius: 0.125rem;
+  margin-bottom: 3.125rem;
+}
+
+.imagenHotel {
+  height: 31.25rem;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+  filter: brightness(0.5);
+  background-image: url(https://plus.unsplash.com/premium_photo-1678297269980-16f4be3a15a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.imgh img {
+  height: 100px;
+  width: 100px;
+}
+
+.map {
+  width: 6.25rem;
+  height: 6.25rem;
+}
+
+.mapa {
+  width: 31.25rem;
+  height: 25rem;
+}
+
+.googlemaps {
+  width: 100%;
+  height: 31.25rem;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+}
+
+.serv {
+  display: grid;
+  grid-template-columns: repeat(6, 25rem);
+  grid-template-rows: repeat(1, 25rem);
+  height: 100%;
+}
+
+@media (max-width: 39.5rem) {
+  .foot p {
+    font-size: 0.5rem;
+  }
+  .foot h3 {
+    font-size: 0.875rem;
+  }
+}
+@media (min-width: 62rem) {
+  .grid1 {
+    display: grid;
+    margin-top: 0.625rem;
+    object-fit: contain;
+    grid-template-columns: repeat(7, 9.375rem);
+    grid-template-rows: repeat(2, 10.625rem);
+    justify-content: center;
+  }
+  .p1 {
+    grid-column: 2/4;
+  }
+  .p2 {
+    grid-column: 5/7;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

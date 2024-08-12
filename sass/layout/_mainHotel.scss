@@ -1,0 +1,17 @@
+.imagenRecepcion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    background-position: center;
+    background-size: cover;
+}
+
+.imagenRestaurant{
+    @extend .imagenRecepcion
+}
+
+.imagenTrabajo{
+    @extend .imagenRecepcion
+}

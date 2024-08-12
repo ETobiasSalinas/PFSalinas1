@@ -1,0 +1,14 @@
+.footerr{
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    color: white;
+        img{
+            width: 7.5rem;
+            height: 7.5rem;
+        }
+        span{
+            margin: .3125rem;
+            padding: .3125rem;
+        }
+    }
