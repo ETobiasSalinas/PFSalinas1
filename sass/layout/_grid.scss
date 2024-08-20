@@ -1,11 +1,24 @@
-.serv{
+.serv {
     display: grid;
-    grid-template-columns: repeat(6,25rem);
-    grid-template-rows: repeat(1,25rem);
-    height: 100%;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto; 
+    padding: 2.5rem;
+    max-width: 100%;
+
+    img {
+        grid-column: 2 / 3; 
+        object-fit: contain; 
+        max-width: 100%; 
+        max-height: 100%; 
+    }
+
+    ul{
+        margin: .625rem;
+    }
 }
 
-@media (max-width: 39.5rem){
+@media (max-width: 43.75rem){
         
     .foot p{
         font-size: .5rem;
@@ -14,6 +27,14 @@
     .foot h3{
         font-size: .875rem;
     }
+
+    .videoServicio {
+        width: 31.25rem; 
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+    }
+    
 
 }
 
@@ -38,4 +59,28 @@
         grid-column: 5/7;
     }
 
+    .mapa {
+        width: 31.25rem; 
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+    }
+
+}
+
+@media (max-width: 62.5rem) {
+    .serv {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto; 
+        padding: 1.25rem;
+    
+        img {
+            grid-column: 1 / 2; 
+            object-fit: contain; 
+            max-width: 100%; 
+            max-height: 100%; 
+        }
+    }
 }
